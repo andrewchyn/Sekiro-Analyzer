@@ -11,4 +11,4 @@
 -TASER_PIN is the pin the relay is plugged into - Does not need to be used.
 
 
-If you want something else to happen when you die, you want to edit the "taser()" function. You can also comment out the printing out of values.
+If you want something else to happen when you die, you want to edit the "taser()" function. You can also comment out the printing out of values. Script essentially looks at a screenshot and spits out a value of "how similar" the screenshot is to the original using the structural similarity index, this is probably overkill as we are only screenshotting a homogenous region of pixels, but can be repurposed for other projects. 
